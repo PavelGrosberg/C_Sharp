@@ -5,8 +5,7 @@
 
 System.Console.WriteLine("Введите число: ");
 int n = Convert.ToInt32(Console.ReadLine());
-int sum = SumDig(n);
-System.Console.WriteLine($"{n} -> {sum}");
+System.Console.WriteLine($"{n} -> {SumDig(n)}");
 
 
 int SumDig (int tempN) 
