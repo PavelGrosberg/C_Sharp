@@ -24,7 +24,7 @@ int GetOddSum (int[] array)
     int oddSum = 0;
     for (int i = 0; i < array.Length; i++)
     {
-        if (i % 2 == 0) oddSum += array[i];
+        if (i % 2 > 0) oddSum += array[i];
     }
     System.Console.Write($"{oddSum}");
     return oddSum;
