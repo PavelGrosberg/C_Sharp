@@ -3,7 +3,7 @@
 [3, 7, 23, 12] -> 19
 [-4, -6, 89, 6] -> 0*/
 
-int[] SetArray(int N, int min = 100, int max = 999)
+int[] SetArray(int N, int min = 100, int max = 1000)
 {
    int[] nums = new int[N];
    for (int i = 0; i < N; i++)

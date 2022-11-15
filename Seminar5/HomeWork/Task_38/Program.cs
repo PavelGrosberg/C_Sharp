@@ -2,7 +2,7 @@
 максимальным и минимальным значениями элементов массива.
 [3 7 22 2 78] -> 76 */
 
-double[] SetArray(int N, int min = 100, int max = 999)
+double[] SetArray(int N)
 {
    double[] nums = new double[N];
    for (int i = 0; i < N; i++)
@@ -18,10 +18,10 @@ double[] SetArray(int N, int min = 100, int max = 999)
    return nums;
 }
 
-void GetMaxMinSum(double[] array)
+void GetMaxMinDiff(double[] array)
 {
-    double sum = array.Max() + array.Min(); 
-    System.Console.Write($"{sum}");
+    double diff = array.Max() - array.Min(); 
+    System.Console.Write($"{diff}");
 }
 
-GetMaxMinSum(SetArray(5));
+GetMaxMinDiff(SetArray(5));

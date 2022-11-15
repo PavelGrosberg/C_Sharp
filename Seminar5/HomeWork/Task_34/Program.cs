@@ -3,7 +3,7 @@
 [345, 897, 568, 234] -> 2
 */
 
-int[] SetArray(int N, int min = 100, int max = 999)
+int[] SetArray(int N, int min = 100, int max = 1000)
 {
    int[] nums = new int[N];
    for (int i = 0; i < N; i++)
