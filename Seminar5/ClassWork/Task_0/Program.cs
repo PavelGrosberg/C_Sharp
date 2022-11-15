@@ -16,13 +16,13 @@ for (int i = 0; i < numbers.Length; i++)
     if (numbers[i] < 0)
         negSum += numbers[i];
     else 
-    posSum += numbers[i];
+        posSum += numbers[i];
 }
 Console.WriteLine($"Положительная сумма = {posSum}, отрицательная сумма = {negSum}");
 
 void WriteArray(int[] array)
 {
-    for (i = 0; i < array.Length; i++)
+    for (int i = 0; i < array.Length; i++)
     {
         Console.Write(array[i] + " ");       
     }
